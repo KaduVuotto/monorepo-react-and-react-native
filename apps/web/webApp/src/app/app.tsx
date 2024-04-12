@@ -1,12 +1,12 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { store } from '@shared/store';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="webApp" />
+      <h1>
+        <span>Hello there</span>
+      </h1>
+      <span>{'Vindo do modulo shared -> ' + store()}</span>
     </div>
   );
 }
