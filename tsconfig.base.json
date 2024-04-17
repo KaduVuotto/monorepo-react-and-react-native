@@ -15,7 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@shared/store": ["shared/store/src/index.ts"]
+      "@functions": ["functions/src/index.ts"],
+      "@native-components": [
+        "shared/react-native/native-components/src/index.ts"
+      ],
+      "@shared/store": ["shared/store/src/index.ts"],
+      "@web-components": ["shared/react/web-components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,4 +1,3 @@
-import { store } from '@shared/store';
 import React from 'react';
 import { SafeAreaView, StyleSheet, View, Text } from 'react-native';
 
@@ -9,7 +8,7 @@ export const App = () => {
       <View>
         <Text style={styles.textLg}>Welcome Mobile</Text>
         <Text style={styles.textLg}>
-          {'Vindo do modulo shared -> ' + store()}
+          {/* {'Vindo do modulo shared -> ' + functions()} */}
         </Text>
       </View>
     </>

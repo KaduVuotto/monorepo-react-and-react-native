@@ -1,12 +1,10 @@
-import { store } from '@shared/store';
-
 export function App() {
   return (
     <div>
       <h1>
         <span>Hello there</span>
       </h1>
-      <span>{'Vindo do modulo shared -> ' + store()}</span>
+      {/* <span>{'Vindo do modulo shared -> ' + functions()}</span> */}
     </div>
   );
 }
